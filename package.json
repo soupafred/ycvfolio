@@ -1,0 +1,50 @@
+{
+  "name": "ycvfolio",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "test": "vitest",
+    "test:watch": "vitest --watch",
+    "test:coverage": "vitest --coverage",
+    "test:unit": "vitest --project unit",
+    "test:nuxt": "vitest --project nuxt"
+  },
+  "dependencies": {
+    "@formkit/auto-animate": "0.9.0",
+    "@nuxt/content": "3.14.0",
+    "@nuxt/devtools": "4.0.0-alpha.6",
+    "@nuxt/eslint": "1.15.2",
+    "@nuxt/hints": "1.1.2",
+    "@nuxt/image": "2.0.0",
+    "@nuxt/scripts": "1.1.1",
+    "@nuxt/test-utils": "4.0.3",
+    "@nuxt/ui": "4.8.1",
+    "@nuxtjs/device": "4.0.0",
+    "@nuxtjs/i18n": "10.4.0",
+    "@pinia/nuxt": "0.11.3",
+    "@unhead/vue": "^2.1.15",
+    "@vercel/speed-insights": "2.0.0",
+    "better-sqlite3": "^12.10.0",
+    "dayjs-nuxt": "2.1.11",
+    "eslint": "^10.4.1",
+    "magic-regexp": "0.11.0",
+    "nuxt": "^4.4.6",
+    "pinia": "^3.0.4",
+    "tailwindcss": "^4.3.0",
+    "typescript": "^5.9.3",
+    "vite": "^7.3.3",
+    "vue": "^3.5.34",
+    "vue-router": "^5.0.7"
+  },
+  "devDependencies": {
+    "@vitest/coverage-v8": "^4.1.7",
+    "@vue/test-utils": "^2.4.10",
+    "happy-dom": "^20.9.0",
+    "vitest": "^4.1.7"
+  }
+}
